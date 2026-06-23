@@ -270,10 +270,10 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&none           &hm LEFT_GUI Y    &hm LEFT_GUI U  &kp LG(RIGHT_BRACKET)  &none           &none                           &none  &none  &none  &none  &none  &none
-&none           &kp P             &kp I           &kp LG(LEFT_BRACKET)   &kp O           &kp LS(RG(G))                   &none  &none  &none  &none  &none  &none
-&kp LEFT_SHIFT  &hm LEFT_SHIFT L  &kp M           &hm LEFT_GUI C         &hm LEFT_GUI V  &hm LEFT_GUI F  &trans  &trans  &none  &none  &none  &none  &none  &none
-&none           &none             &none           &none                  &none           &none                           &none  &none  &none  &none  &none  &none
+&none           &hm LEFT_GUI Y    &hm LEFT_GUI U  &kp LG(RIGHT_BRACKET)  &none           &none                           &none  &none  &none   &none  &none  &none
+&none           &kp P             &kp I           &kp LG(LEFT_BRACKET)   &kp O           &kp LS(RG(G))                   &none  &none  &none   &none  &none  &none
+&kp LEFT_SHIFT  &hm LEFT_SHIFT L  &kp M           &hm LEFT_GUI C         &hm LEFT_GUI V  &hm LEFT_GUI F  &trans  &trans  &none  &none  &none   &none  &none  &none
+&none           &none             &none           &none                  &none           &none                           &none  &none  &tog 0  &none  &none  &none
             >;
 
             sensor-bindings =
