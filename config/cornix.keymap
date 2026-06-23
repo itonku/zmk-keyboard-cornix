@@ -189,10 +189,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB         &kp Q               &kp W         &kp E             &kp R        &kp T                           &kp Y          &kp U        &kp I            &kp O          &kp P                  &kp DEL
-&kp LEFT_GUI    &hm_l LEFT_GUI A    &kp S         &kp D             &kp F        &kp G                           &kp H          &kp J        &kp K            &kp L          &hm_r RIGHT_GUI MINUS  &kp RIGHT_GUI
-&kp LEFT_SHIFT  &hm_l LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B             &none  &none  &kp N          &kp M        &kp COMMA        &kp DOT        &hm RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp LEFT_SHIFT      &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 2 SPACE  &lt 1 LANGUAGE_1                &kp BACKSPACE  &lt 3 ENTER  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none                  &kp RCTRL
+&kp TAB         &kp Q               &kp W             &kp E             &kp R        &kp T                           &kp Y          &kp U        &kp I            &kp O          &kp P                  &kp DEL
+&kp LEFT_GUI    &hm_l LEFT_GUI A    &hm LEFT_SHIFT S  &hm LEFT_ALT D    &hm LCTRL F  &kp G                           &kp H          &hm RCTRL J  &hm RIGHT_ALT K  &hm RSHFT L    &hm_r RIGHT_GUI MINUS  &kp RIGHT_GUI
+&kp LEFT_SHIFT  &hm_l LEFT_SHIFT Z  &kp X             &kp C             &kp V        &kp B             &none  &none  &kp N          &kp M        &kp COMMA        &kp DOT        &kp SLASH              &kp RIGHT_SHIFT
+&none           &kp LEFT_SHIFT      &kp LEFT_ALT      &lt 4 LANGUAGE_2  &lt 2 SPACE  &lt 1 LANGUAGE_1                &kp BACKSPACE  &lt 3 ENTER  &tog 4           &kp RIGHT_ALT  &none                  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -230,10 +230,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none         &kp EXCL    &kp N7        &kp N8        &kp N9        &kp N0                     &none        &kp F7  &kp F8     &kp F9         &kp F12  &none
-&kp LEFT_GUI  &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                   &kp INT_YEN  &kp F4  &kp F5     &kp F6         &kp F11  &none
-&none         &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &none        &kp F1  &kp F2     &kp F3         &kp F10  &none
-&none         &none       &kp LEFT_ALT  &none         &trans        &trans                     &kp TILDE    &trans  &kp GRAVE  &kp RIGHT_ALT  &none    &none
+&none         &none                &kp N7        &kp N8        &kp N9        &kp N0                     &none      &kp F7  &kp F8     &kp F9         &kp F12  &none
+&kp LEFT_GUI  &hm LEFT_GUI PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                   &none      &kp F4  &kp F5     &kp F6         &kp F11  &none
+&none         &kp N0               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &none      &kp F1  &kp F2     &kp F3         &kp F10  &none
+&none         &none                &kp LEFT_ALT  &none         &trans        &trans                     &kp TILDE  &trans  &kp GRAVE  &kp RIGHT_ALT  &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -250,10 +250,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &none      &kp AMPS  &kp ASTRK    &none      &none                          &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT  &none      &none   &none
-&trans  &kp SLASH  &kp DLLR  &kp PERCENT  &kp CARET  &kp PLUS                       &kp SQT            &kp LPAR  &kp RPAR  &kp BSLH   &none   &none
-&trans  &kp TILDE  &kp EXCL  &kp AT       &kp HASH   &kp EQUAL      &trans  &trans  &kp SEMI           &kp LBRC  &kp RBRC  &kp COLON  &trans  &trans
-&none   &none      &none     &kp TAB      &trans     &kp BACKSPACE                  &trans             &trans    &kp N3    &none      &none   &none
+&trans  &none      &kp AMPS     &kp ASTRK    &kp LESS_THAN  &kp GREATER_THAN                  &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT  &none      &none   &none
+&trans  &kp SLASH  &kp DLLR     &kp PERCENT  &kp CARET      &kp PLUS                          &kp SQT            &kp LPAR  &kp RPAR  &kp BSLH   &none   &none
+&trans  &kp TILDE  &kp EXCL     &kp AT       &kp HASH       &kp EQUAL         &trans  &trans  &kp SEMI           &kp LBRC  &kp RBRC  &kp COLON  &trans  &trans
+&none   &none      &kp INT_YEN  &kp TAB      &trans         &kp BACKSPACE                     &trans             &trans    &none     &none      &none   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -270,10 +270,10 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&none           &hm LEFT_GUI Y    &hm LEFT_GUI U  &hm LEFT_GUI RBKT  &none           &none                           &none  &none  &none  &none  &none  &none
-&none           &kp P             &kp I           &hm LEFT_GUI LBKT  &kp O           &kp LS(RG(G))                   &none  &none  &none  &none  &none  &none
-&kp LEFT_SHIFT  &hm LEFT_SHIFT L  &kp M           &hm LEFT_GUI C     &hm LEFT_GUI V  &hm LEFT_GUI F  &trans  &trans  &none  &none  &none  &none  &none  &none
-&none           &none             &none           &none              &none           &none                           &none  &none  &none  &none  &none  &none
+&none           &hm LEFT_GUI Y    &hm LEFT_GUI U  &kp LG(RIGHT_BRACKET)  &none           &none                           &none  &none  &none  &none  &none  &none
+&none           &kp P             &kp I           &kp LG(LEFT_BRACKET)   &kp O           &kp LS(RG(G))                   &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &hm LEFT_SHIFT L  &kp M           &hm LEFT_GUI C         &hm LEFT_GUI V  &hm LEFT_GUI F  &trans  &trans  &none  &none  &none  &none  &none  &none
+&none           &none             &none           &none                  &none           &none                           &none  &none  &none  &none  &none  &none
             >;
 
             sensor-bindings =
