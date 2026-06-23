@@ -28,7 +28,7 @@
 };
 
 &spi3 {
-    status = "okay";
+    status = "disabled";
     compatible = "nordic,nrf-spim";
 
     pinctrl-0 = <&spi3_default>;
@@ -36,7 +36,7 @@
     pinctrl-names = "default", "sleep";
 
     ws2812@0 {
-        status = "okay";
+        status = "disabled";
         compatible = "worldsemi,ws2812-spi";
 
         /* SPI */
