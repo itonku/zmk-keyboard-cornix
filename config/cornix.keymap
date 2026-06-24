@@ -133,7 +133,7 @@
             quick-tap-ms = <200>;
         };
     };
-
+/*
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
@@ -142,7 +142,7 @@
             then-layer = <4>;
         };
     };
-
+*/
     combos {
         compatible = "zmk,combos";
 
