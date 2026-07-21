@@ -12,6 +12,7 @@
 #     shield: reviung41
 #
 ---
+
 include:
   - board: nice_nano/nrf52840/zmk
     shield: cornix_dongle_adapter cornix_dongle_eyelash dongle_display
@@ -26,7 +27,8 @@ include:
   #   shield: cornix_dongle_adapter dongle_screen
   #   snippet: studio-rpc-usb-uart
   #   artifact-name: cornix_dongle_zds_nano
-- board: cornix_left
+
+  - board: cornix_left
     # shield: cornix_indicator
     artifact-name: cornix_left_default_nosd
 
