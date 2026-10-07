@@ -15,7 +15,7 @@
 // quick tapping for shift
 
 #define HM_TAPPING_TERM_FAST 200
-#define HM_PRIOR_IDLE 250
+#define HM_PRIOR_IDLE 150
 #define BASE 0
 #define WIN 1
 #define LOWER 2
